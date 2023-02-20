@@ -20,7 +20,7 @@ Homework 1 linux terminal (GitBash) commands
 `$ touch js2.json`
 7. Создать 3 папки.  
 `$ mkdir papka_1`  
-`$ mkdir papka_2`  
+`$ mkdir papka_2`  1111
 `$ mkdir papka_3`
 8. Вывести список содержимого папки.  
 `$ ls -la # "-la" - показывает весь список файлов в корне папки.`
