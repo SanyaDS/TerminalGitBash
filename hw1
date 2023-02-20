@@ -23,3 +23,4 @@ echo peremechenie failov
 echo -
 find -name txt1.txt
 find -name js1.json
+1
