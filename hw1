@@ -1,0 +1,25 @@
+#!/bin/bash
+mkdir papka_hw1
+cd papka_hw1
+mkdir papka_1
+mkdir papka_2
+mkdir papka_3
+cd papka_3
+mkdir papka_1
+mkdir papka_2
+mkdir papka_3
+touch txt1.txt
+touch txt2.txt
+touch txt3.txt
+touch js1.json
+touch js2.json
+ls -la
+mv txt1.txt papka_1
+mv js1.json papka_2
+cd ../
+cd ../
+echo -
+echo peremechenie failov
+echo -
+find -name txt1.txt
+find -name js1.json
