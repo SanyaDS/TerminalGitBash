@@ -33,7 +33,19 @@ Homework 3 linux terminal (GitBash) commands.
 `$ git add .`  
 `$ git commit -m "New file txt"`  
 `$ git push`
-12. В ветке CheckLists набросать структуру чек листа.
-13. Запушить структуру на внешний репозиторий.
-14. На внешнем репозитории сделать Pull Request ветки CheckLists в main.
-15. Синхронизировать Внешнюю и Локальную ветки Main.
+12. В ветке CheckLists набросать структуру чек листа.  
+`$ git checkout checklists`  
+`$ touch checklist.txt`  
+`$ vim checklist.txt`  
+`i # добавляем информацию.`  
+`Esc`  
+`:x`  
+`Enter # выходим из редактора vim.`
+14. Запушить структуру на внешний репозиторий.  
+`$ git status`  
+`$ git add .`  
+`$ git commit -m "New file txt"`  
+`$ git push`
+16. На внешнем репозитории сделать Pull Request ветки CheckLists в main.
+17. Синхронизировать Внешнюю и Локальную ветки Main.  
+`$ git pull`
