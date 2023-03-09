@@ -20,20 +20,20 @@ Homework 3 linux terminal (GitBash) commands.
 `Esc`  
 `:x`  
 `Enter # выходим из редактора vim.`
-6. Запушить структуру багрепорта на внешний репозиторий.  
+4. Запушить структуру багрепорта на внешний репозиторий.  
 `$ git status`  
 `$ git add .`  
 `$ git commit -m "New file txt"`  
 `$ git push`
-8. Вмержить ветку Bag Reports в Main.  
+5. Вмержить ветку Bag Reports в Main.  
 `$ git checkout main`  
 `$ git merge bag_reports`
-10. Запушить main на внешний репозиторий.  
+6. Запушить main на внешний репозиторий.  
 `$ git status`  
 `$ git add .`  
 `$ git commit -m "New file txt"`  
 `$ git push`
-12. В ветке CheckLists набросать структуру чек листа.  
+7. В ветке CheckLists набросать структуру чек листа.  
 `$ git checkout checklists`  
 `$ touch checklist.txt`  
 `$ vim checklist.txt`  
@@ -41,11 +41,12 @@ Homework 3 linux terminal (GitBash) commands.
 `Esc`  
 `:x`  
 `Enter # выходим из редактора vim.`
-14. Запушить структуру на внешний репозиторий.  
+8. Запушить структуру на внешний репозиторий.  
 `$ git status`  
 `$ git add .`  
 `$ git commit -m "New file txt"`  
 `$ git push`
-16. На внешнем репозитории сделать Pull Request ветки CheckLists в main.
-17. Синхронизировать Внешнюю и Локальную ветки Main.  
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main.  
+`Заходим на внешний репозиторий и делаем все во вкладке Pull requests.`
+10. Синхронизировать Внешнюю и Локальную ветки Main.  
 `$ git pull`
